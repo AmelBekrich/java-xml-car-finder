@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Car Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Car Finder</h1>
+<form action="/cars/brand" method="get">
+    <label for="brand">Brand:</label>
+    <input type="text" id="brand" name="brand">
+    <button type="submit">Search</button>
+</form>
+<form action="/cars/year" method="get">
+    <label for="startingYear">Starting Year:</label>
+    <input type="number" id="startingYear" name="startingYear">
+    <label for="endingYear">Ending Year:</label>
+    <input type="number" id="endingYear" name="endingYear">
+    <button type="submit">Search</button>
+</form>
+<form action="/cars/consumption" method="get">
+    <label for="lowestConsumption">Lowest Consumption:</label>
+    <input type="number" step="0.1" id="lowestConsumption" name="lowestConsumption">
+    <label for="highestConsumption">Highest Consumption:</label>
+    <input type="number" step="0.1" id="highestConsumption" name="highestConsumption">
+    <button type="submit">Search</button>
+</form>
+</body>
+</html>
