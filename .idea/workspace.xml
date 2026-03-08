@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8375734c-d42f-4dc7-9add-2c2ed19a6b16" name="Changes" comment="Car picker web app">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/smoki/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/smoki/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cars.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cars.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/car-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/car-list.html" afterDir="false" />
+    <list default="true" id="8375734c-d42f-4dc7-9add-2c2ed19a6b16" name="Changes" comment="Fix String-to-Double conversion error">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,12 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718303653627</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix String-to-Double conversion error">
+      <option name="closed" value="true" />
+      <created>1772967292778</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772967292778</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Car picker web app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Car picker web app" />
+    <MESSAGE value="Fix String-to-Double conversion error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix String-to-Double conversion error" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

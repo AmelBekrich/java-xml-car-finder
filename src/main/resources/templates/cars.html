@@ -102,8 +102,8 @@
     <form action="/cars/year" method="get">
         <label>Year Range:</label>
         <div class="inline-fields">
-            <input type="number" id="startingYear" name="startingYear" min="1900" max="2024" placeholder="From">
-            <input type="number" id="endingYear" name="endingYear" min="1900" max="2024" placeholder="To">
+            <input type="number" id="startingYear" name="startingYear" min="1900" max="2026" placeholder="From">
+            <input type="number" id="endingYear" name="endingYear" min="1900" max="2026" placeholder="To">
         </div>
         <button type="submit">Filter</button>
     </form>
@@ -129,7 +129,7 @@
 
 <script>
     document.getElementById("startingYear").value = 1900;
-    document.getElementById("endingYear").value = 2024;
+    document.getElementById("endingYear").value = 2026;
     var button = document.getElementById("button");
 
     function changeConsumption() {
